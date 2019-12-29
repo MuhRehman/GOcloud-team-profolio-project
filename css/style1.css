@@ -1,0 +1,213 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.banner {
+  background-image: url("../img/banner.gif");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.nav {
+    margin-top: 22px;
+}
+
+li a {
+    
+    color: whitesmoke;
+    font-size: 13PX;
+    padding:  12px;
+}
+li a i {
+    font-size: 18px;
+}
+h5 i {
+    font-size: 30px;
+}
+li {
+    display: inline;
+    
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-inner {
+    color: aliceblue;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.banner-left h5 {
+    font-weight: 300;
+    font-size: 15px;
+}
+.banner-left h1 {
+    font-size: 50px;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+}
+span {
+    color: #13a110;
+    font-weight: bolder;
+}
+.btn-green  {
+    background-color: #13a110;
+    margin-top: 42px;
+    
+}
+.about h1{
+     font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+.icofont-rounded-right {
+    color: #0a0a0a;
+}
+.view-profile   {
+color:black; 
+font-weight:bold;
+font-size:12px;
+}
+.textclr {
+    color: #91d38f;
+    font-weight: 400px;
+}
+footer {
+    color: azure;
+    background-color: #001d2c;
+}
+.t-size 
+ {   
+    color: #ffffff !important;
+    font-weight: normal;
+    font-size: 16px;
+}
+footer ul li a {
+    
+    color: #919191;
+    font-size: 13PX;
+    padding:  12px;
+    padding-left: 0px;
+}
+footer h5 {
+    color: #13a110;
+}
+
+.computer12 {
+    background-color: #e33a59;
+    
+}
+.card li a {
+  color: #e33a59;
+}
+.shadow-1 {
+  
+  
+  box-shadow: 1px 2px 2px 2px #cccac4;
+}
+.t-shadow-pink  {
+    
+    box-shadow: 7px 110px 10px 0px #cccac4 inset;
+    
+    border-bottom: #e33a59 solid 2px;
+    border-top: #e33a59 solid 4px;
+    
+}
+.t-clr a {
+      color: #e33a59;
+}
+.t-shadow-blue   {
+    
+    box-shadow: 7px 10px 10px 0px #cccac4 inset;
+    
+    border-bottom: #3e7b97 solid 2px;
+    border-top: #3e7b97 solid 4px;
+    
+}
+
+.t-shadow-yellow  {
+    
+    box-shadow: 7px 10px 10px 0px #cccac4 inset;
+    border-bottom: #fdc82c solid 2px;
+    border-top: #fdc82c solid 4px;
+
+    
+}
+.t-shadow-skyblue  {
+    
+    box-shadow: 3px 1px 22px 0px #cccac4 inset;
+    
+    border-bottom: #46aeaf solid 2px;
+    border-top: #46aeaf solid 4px;
+}
+
+.card-body h5 {
+    margin-top: 5px;
+   
+}
+.card img {
+    padding: 3px;
+    }
+.text-1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 12px;
+}
+.protfolio {
+    background-image: url("../img/banner1331.png");
+    margin-top: 42px;
+    
+}
+.protfolio h1 {
+    
+    color: #ffffff;
+}
+.protfolio p {
+    color: #fdc82c;
+}
+.protfolio {
+    padding: 22px;
+}
+@media screen and (max-width: 320px ) {
+    
+ }
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+     .text-center button
+     {
+        visibility: hidden;
+     }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .banner-left h1 {
+        font-size:32px;
+    }
+    .banner-left h4 {
+        font-size:21px;
+    }
+    .nav-inner {
+        margin-left: auto;
+    }
+    
+    .social-icons li a {
+        display: none;
+    }
+} 
+@media (max-width: 767px) {
+    .navbar-toggleable-sm {
+      clear: both;
+    }
+  }

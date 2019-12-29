@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.banner {
+  background-image: url("../img/banner.gif");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+header {
+    margin-top: 12px;
+}
+.logo {
+   
+}
+
+li a {
+    
+    color: #919191;
+    font-size: 13PX;
+    padding:  12px;
+}
+li a i {
+    font-size: 18px;
+}
+li {
+    display: inline;
+    
+}
+.banner-inner {
+    color: aliceblue;
+    margin-top: 44px;
+}
+span {
+    color: #13a110;
+    font-weight: bolder;
+}
+.about h1{
+     font-weight: bold;
+}
+
+.card {
+    border-color: transparent;
+}
+.icofont-rounded-right {
+    color: #0a0a0a;
+}
+.view-profile   {
+color:black; 
+font-weight:bold;
+font-size:12px;
+}
+.textclr {
+    color: #91d38f;
+    font-weight: 400px;
+}
+footer {
+    color: azure;
+    background-color: #001d2c;
+}
+.t-size 
+ {   
+    color: #ffffff !important;
+    font-weight: normal;
+    font-size: 13px;
+}
